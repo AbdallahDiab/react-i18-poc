@@ -6,7 +6,6 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // Import translation files
 import commonEN from "../public/locales/en/authEn.json";
 import authEN from "../public/locales/en/authEn.json";
-import lockupEn from "../public/locales/en/lockup.json";
 import commonFR from "../public/locales/fr/commonFr.json";
 import authFR from "../public/locales/fr/authFr.json";
 
@@ -14,7 +13,6 @@ const resources = {
   en: {
     common: commonEN,
     auth: authEN,
-    lockupEn: lockupEn,
   },
   fr: {
     common: commonFR,

@@ -8,8 +8,7 @@ export default function Page1() {
     <div>
       <Link to="/home">Home</Link>
       <h1>Page1</h1>
-      <p>{t("auth", { context: "key1" })} </p>
-      <p>{t("auth", { context: "user_name" })} </p>
+      <p>{t("label", { context: "name" })} </p>
     </div>
   );
 }
